@@ -1,11 +1,12 @@
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --accent-color: #8B5CF6; /* Changed to a vibrant purple */
-  --bg-black: #1A1F2C; /* Changed to a rich dark blue-black */
+  --accent-color: #22c55e; /* Changed to green from purple */
+  --bg-black: #1A1F2C; /* Keeping the rich dark blue-black */
   --bg-white: #FFFFFF;
   --text-black: #1A1F2C;
   --text-white: #FFFFFF;
@@ -16,19 +17,19 @@
   --card-foreground: 222.2 84% 4.9%;
   --popover: 0 0% 100%;
   --popover-foreground: 222.2 84% 4.9%;
-  --primary: 262.1 83.3% 57.8%; /* Purple */
+  --primary: 142 70% 45%; /* Changed to green from purple */
   --primary-foreground: 210 40% 98%;
   --secondary: 210 40% 96.1%;
   --secondary-foreground: 222.2 47.4% 11.2%;
   --muted: 210 40% 96.1%;
   --muted-foreground: 215.4 16.3% 46.9%;
-  --accent: 262.1 83.3% 57.8%; /* Purple */
+  --accent: 142 70% 45%; /* Changed to green from purple */
   --accent-foreground: 222.2 47.4% 11.2%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
-  --ring: 262.1 83.3% 57.8%; /* Purple */
+  --ring: 142 70% 45%; /* Changed to green from purple */
   --radius: 0.75rem;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(90deg, var(--accent-color) 0%, #D946EF 100%);
+  background: linear-gradient(90deg, var(--accent-color) 0%, #4ade80 100%); /* Changed gradient to green shades */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -64,3 +65,4 @@ body {
 .hover-scale:hover {
   transform: scale(1.05);
 }
+
