@@ -24,7 +24,7 @@ export function ProjectCard({ logo, title, repoUrl }: ProjectCardProps) {
         <div className="flex flex-col">
           {repoUrl && (
             <div 
-              className="cursor-pointer hover:text-[color:var(--accent-color)] mb-2 self-end"
+              className="cursor-pointer hover:text-[color:var(--accent-color)] mb-2 self-start"
               onClick={(e) => handleRepoClick(e, repoUrl)}
             >
               <Github className="h-6 w-6 text-[color:var(--bg-black)]" />
