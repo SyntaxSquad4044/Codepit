@@ -3,11 +3,12 @@ interface ChallengeCardProps {
   logo: string;
   title: string;
   difficulty: string;
+  onClick?: () => void;
 }
 
-export function ChallengeCard({ logo, title, difficulty }: ChallengeCardProps) {
+export function ChallengeCard({ logo, title, difficulty, onClick }: ChallengeCardProps) {
   return (
-    <div className="bg-white rounded-xl overflow-hidden shadow-lg hover-scale">
+    <div className="bg-white rounded-xl overflow-hidden shadow-lg hover-scale cursor-pointer" onClick={onClick}>
       <div className="p-6">
         <img
           src={logo}

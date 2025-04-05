@@ -3,11 +3,15 @@ interface FeatureCardProps {
   icon: React.ReactNode;
   title: string;
   description: string;
+  onClick?: () => void;
 }
 
-export function FeatureCard({ icon, title, description }: FeatureCardProps) {
+export function FeatureCard({ icon, title, description, onClick }: FeatureCardProps) {
   return (
-    <div className="glass-card p-8 hover-scale">
+    <div 
+      className="glass-card p-8 hover-scale cursor-pointer" 
+      onClick={onClick}
+    >
       <div className="mb-6 flex justify-center">
         {icon}
       </div>
