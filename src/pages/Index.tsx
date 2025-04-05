@@ -8,12 +8,14 @@ import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
 
 const Index = () => {
   return (
-    <div className="bg-[color:var(--bg-black)] min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <Hero />
-      <Features />
-      <FeaturedChallenges />
-      <FeaturedProjects />
+      <main className="flex-1 pt-16">
+        <Hero />
+        <Features />
+        <FeaturedChallenges />
+        <FeaturedProjects />
+      </main>
       <Footer />
     </div>
   );

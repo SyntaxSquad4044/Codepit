@@ -1,3 +1,4 @@
+
 interface ChallengeCardProps {
   logo: string;
   title: string;
@@ -6,28 +7,28 @@ interface ChallengeCardProps {
 
 export function ChallengeCard({ logo, title, difficulty }: ChallengeCardProps) {
   return (
-    <div className="box-border relative bg-[color:var(--bg-white)] m-0 p-10 rounded-3xl hover:shadow-lg transition-shadow">
-      <img
-        src={logo}
-        alt={title}
-        className="box-border w-[156px] h-[81px] object-contain mb-[30px] m-0 p-0"
-      />
-      <h3 className="box-border text-[45px] text-[color:var(--text-black)] underline font-bold mb-5 m-0 p-0 max-sm:text-[32px]">
-        {title}
-      </h3>
-      <p className="box-border text-[23px] mb-5 m-0 p-0">
-        <span>Difficulty: </span>
-        <span
-          className={`box-border ${
-            difficulty === "Easy"
-              ? "text-[color:var(--accent-color)]"
-              : "text-[#7E9104]"
-          } m-0 p-0`}
-        >
-          {difficulty}
-        </span>
-      </p>
-      <div className="box-border w-3 h-[19px] absolute bg-[color:var(--text-black)] m-0 p-0 right-5 bottom-5" />
+    <div className="bg-white rounded-xl overflow-hidden shadow-lg hover-scale">
+      <div className="p-6">
+        <img
+          src={logo}
+          alt={title}
+          className="h-16 mb-6"
+        />
+        <h3 className="text-2xl font-bold text-[color:var(--text-black)] mb-3">
+          {title}
+        </h3>
+        <div className="flex items-center">
+          <span className="text-gray-600">Difficulty: </span>
+          <span
+            className={`ml-2 font-medium ${
+              difficulty === "Easy" ? "text-green-500" : "text-yellow-500"
+            }`}
+          >
+            {difficulty}
+          </span>
+        </div>
+      </div>
+      <div className="h-1 w-full bg-[color:var(--accent-color)]"></div>
     </div>
   );
 }

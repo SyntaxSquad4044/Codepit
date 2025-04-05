@@ -1,39 +1,33 @@
+
 export function Hero() {
   return (
-    <section className="box-border text-center relative m-0 px-0 py-[100px]">
-      <div className="box-border m-0 p-0">
-        <h1 className="box-border text-6xl text-[color:var(--text-white)] mb-10 m-0 px-5 py-0 max-md:text-5xl max-sm:text-4xl">
+    <section className="pt-32 pb-24 px-4 md:px-8 max-w-7xl mx-auto">
+      <div className="text-center">
+        <h1 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
           <span>One Platform, Endless Coding</span>
-          <span className="box-border text-[color:var(--accent-color)] m-0 p-0">
-            &lt;
-          </span>
+          <span className="text-[color:var(--accent-color)]">&lt;</span>
           <span>Challenges & Open-Source Projects</span>
-          <span className="box-border text-[color:var(--accent-color)] m-0 p-0">
-            &gt;
-          </span>
+          <span className="text-[color:var(--accent-color)]">&gt;</span>
         </h1>
-        <p className="box-border text-[23px] text-[color:var(--text-white)] max-w-[1016px] mt-0 mb-[60px] mx-auto px-5 py-0 max-md:text-xl max-sm:text-lg">
+        <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-12 text-gray-300">
           <span>
             Discover, filter, and access coding challenges from different coding
             platforms
           </span>
-          <span className="box-border text-[color:var(--accent-color)] m-0 p-0">
-            {" "}
-            all in one place
-          </span>
+          <span className="text-[color:var(--accent-color)]"> all in one place</span>
           <span>
             . Explore trending open-source projects from GitHub and take your
             coding journey to the next level!
           </span>
         </p>
-        <div className="box-border flex gap-5 justify-center m-0 p-0 max-sm:flex-col max-sm:items-center">
-          <button className="box-border border border-[color:var(--text-white)] text-[color:var(--text-black)] text-[23px] cursor-pointer bg-[color:var(--bg-white)] m-0 px-[30px] py-2.5 rounded-[3px] border-solid hover:bg-transparent hover:text-[color:var(--text-white)]">
+        <div className="flex flex-wrap gap-4 justify-center">
+          <button className="px-8 py-3 text-lg font-medium bg-white text-[color:var(--bg-black)] rounded-md hover:bg-transparent hover:text-white hover:border hover:border-white transition-all">
             Challenges
           </button>
-          <button className="box-border border border-[color:var(--text-white)] text-[color:var(--text-black)] text-[23px] cursor-pointer bg-[color:var(--bg-white)] m-0 px-[30px] py-2.5 rounded-[3px] border-solid hover:bg-transparent hover:text-[color:var(--text-white)]">
+          <button className="px-8 py-3 text-lg font-medium bg-white text-[color:var(--bg-black)] rounded-md hover:bg-transparent hover:text-white hover:border hover:border-white transition-all">
             Projects
           </button>
-          <button className="box-border border border-[color:var(--accent-color)] text-[color:var(--text-black)] rounded text-[23px] cursor-pointer bg-[color:var(--accent-color)] m-0 px-[30px] py-2.5 border-solid hover:bg-transparent hover:text-[color:var(--accent-color)]">
+          <button className="px-8 py-3 text-lg font-medium bg-[color:var(--accent-color)] text-white rounded-md hover:bg-transparent hover:text-[color:var(--accent-color)] hover:border hover:border-[color:var(--accent-color)] transition-all">
             Get Started
           </button>
         </div>

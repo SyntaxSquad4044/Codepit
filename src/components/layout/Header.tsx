@@ -1,38 +1,41 @@
+
 import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <header className="box-border flex items-center justify-between relative z-10 m-0 px-14 py-5 max-sm:p-5">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/77ee10eb93456e1a6f7181bd3b356417bf287051"
-        alt="CodePit Logo"
-        className="box-border w-[292px] h-[292px] object-contain mt-[-62px] m-0 p-0"
-      />
-      <nav className="box-border flex gap-10 m-0 p-0 max-sm:hidden">
+    <header className="fixed top-0 left-0 right-0 z-50 px-8 py-4 flex items-center justify-between bg-[color:var(--bg-black)]/90 backdrop-blur-md">
+      <Link to="/" className="flex items-center">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/77ee10eb93456e1a6f7181bd3b356417bf287051"
+          alt="CodePit Logo"
+          className="h-16 object-contain"
+        />
+      </Link>
+      <nav className="hidden md:flex space-x-8">
         <Link
           to="/"
-          className="box-border text-[color:var(--text-white)] no-underline text-[23px] transition-[color] duration-[0.3s] hover:text-[color:var(--accent-color)]"
+          className="text-white text-lg font-medium hover:text-[color:var(--accent-color)] transition-colors"
         >
           Home
         </Link>
         <Link
           to="/challenges"
-          className="box-border text-[color:var(--text-white)] no-underline text-[23px] transition-[color] duration-[0.3s] hover:text-[color:var(--accent-color)]"
+          className="text-white text-lg font-medium hover:text-[color:var(--accent-color)] transition-colors"
         >
           Challenges
         </Link>
         <Link
           to="/projects"
-          className="box-border text-[color:var(--text-white)] no-underline text-[23px] transition-[color] duration-[0.3s] hover:text-[color:var(--accent-color)]"
+          className="text-white text-lg font-medium hover:text-[color:var(--accent-color)] transition-colors"
         >
           Projects
         </Link>
       </nav>
-      <div className="box-border flex gap-5 m-0 p-0 max-sm:flex-col">
-        <button className="box-border rounded text-[23px] cursor-pointer border border-[color:var(--accent-color)] text-[color:var(--accent-color)] m-0 px-[30px] py-2.5 border-solid hover:bg-[color:var(--accent-color)] hover:text-[color:var(--text-black)]">
+      <div className="flex space-x-4">
+        <button className="px-6 py-2 text-lg font-medium border border-[color:var(--accent-color)] text-[color:var(--accent-color)] rounded-md transition-all hover:bg-[color:var(--accent-color)] hover:text-white">
           Login
         </button>
-        <button className="box-border rounded text-[23px] cursor-pointer border border-[color:var(--accent-color)] text-[color:var(--text-black)] bg-[color:var(--accent-color)] m-0 px-[30px] py-2.5 border-solid hover:bg-transparent hover:text-[color:var(--accent-color)]">
+        <button className="px-6 py-2 text-lg font-medium bg-[color:var(--accent-color)] text-white rounded-md transition-all hover:bg-[color:var(--accent-color)]/90">
           Get Started
         </button>
       </div>
