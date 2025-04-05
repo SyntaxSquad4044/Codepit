@@ -1,54 +1,65 @@
-# Welcome to your Lovable project
+# 🚀 CodeHub - Your Smart Gateway to Coding & Open Source!
 
-## Project info
+CodeHub is a centralized platform that brings together coding challenges from multiple platforms like LeetCode, Codeforces, CodeChef, and HackerRank, along with recommended GitHub open-source projects — all in one place. Powered by AI, it helps you discover personalized challenges and projects based on your preferences, history, and skill level.
 
-**URL**: https://lovable.dev/projects/bfc351ea-70d3-4c2b-9054-d5ae612abbb6
+---
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+- 🔍 **Unified Search** for challenges across top coding platforms
+- 🧠 **AI-Based Recommendations** for personalized challenge & project suggestions
+- 💡 **Discover Trending Projects** from GitHub to contribute and grow
+- 🏷️ **Smart Filters** for platform, difficulty, language, and tags
+- 📊 **Track Your Progress** with solved challenges and saved projects
+- 🎯 **Save Time** by skipping the hunt — let AI do it for you!
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bfc351ea-70d3-4c2b-9054-d5ae612abbb6) and start prompting.
+## 🧩 Problem Statement
 
-Changes made via Lovable will be committed automatically to this repo.
+Finding relevant coding challenges and open-source projects is time-consuming. Learners often switch between multiple platforms without clear guidance, leading to confusion and inefficiency.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✅ Our Solution
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+CodeHub acts as a one-stop solution where:
+- You can explore and filter challenges from multiple sources
+- Get AI-powered personalized recommendations
+- Find open-source projects matching your skills and interests
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🎯 Purpose
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To streamline the developer’s journey by providing a smart, centralized space to practice, learn, and grow through coding challenges and meaningful open-source contributions
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📈 Marketing Strategy
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- 📱 Social Media Content: Developer tips, challenges of the day, and project highlights
+- 🧑‍🤝‍🧑 Community Outreach: Partner with coding clubs and student communities
+- 📰 Newsletter: Weekly challenge packs and project picks
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 💰 Revenue Model (Future Scope)
 
-**Use GitHub Codespaces**
+- Freemium Model: Basic features free, premium for advanced AI, analytics
+- Partner Sponsorships with EdTech companies
+- API Licensing for other platforms
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
+
+## 📅 Future Plans
+
+- Add in-built compiler and submission tracking
+- Enable GitHub login + auto-import activity
+- Full DSA roadmap integration with personalized tracking
+- Create challenge playlists based on career goals (e.g. FAANG prep, CP contests)
+- Mobile App Development
+
+---
 
 ## What technologies are used for this project?
 
@@ -59,15 +70,3 @@ This project is built with .
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bfc351ea-70d3-4c2b-9054-d5ae612abbb6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
