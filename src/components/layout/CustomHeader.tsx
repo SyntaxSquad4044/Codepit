@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Code } from "lucide-react";
 
 export function CustomHeader() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -37,9 +36,12 @@ export function CustomHeader() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center gap-2">
-              <Code className="h-6 w-6 text-[color:var(--accent-color)]" />
-              <span className="text-xl font-bold text-white">CodePit</span>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/1e4cc934-8e77-475c-ad63-ede0e4f9f9fc.png" 
+                alt="CodePit Logo" 
+                className="h-8" 
+              />
             </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6">
