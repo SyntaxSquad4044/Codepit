@@ -40,7 +40,7 @@ export function CustomHeader() {
               <img 
                 src="/lovable-uploads/1e4cc934-8e77-475c-ad63-ede0e4f9f9fc.png" 
                 alt="CodePit Logo" 
-                className="h-12" 
+                className="h-16" 
               />
             </Link>
           </div>
