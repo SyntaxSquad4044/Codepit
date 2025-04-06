@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Code } from "lucide-react";
 
 export function CustomHeader() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -37,7 +38,8 @@ export function CustomHeader() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold text-white">CodeJourney</span>
+              <Code className="h-6 w-6 text-[color:var(--accent-color)]" />
+              <span className="text-xl font-bold text-white">CodePit</span>
             </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6">
