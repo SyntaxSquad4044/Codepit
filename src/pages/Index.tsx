@@ -1,5 +1,5 @@
 
-import { Header } from "@/components/layout/Header";
+import { CustomHeader } from "@/components/layout/CustomHeader";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Features } from "@/components/sections/Features";
@@ -10,7 +10,7 @@ import { AiRecommendations } from "@/components/sections/AiRecommendations";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <CustomHeader />
       <main className="flex-1 pt-16">
         <Hero />
         <Features />
