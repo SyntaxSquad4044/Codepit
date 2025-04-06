@@ -1,4 +1,4 @@
-# 🚀 CodeHub - Your Smart Gateway to Coding & Open Source!
+# 🚀 CodePit - Your Smart Gateway to Coding & Open Source!
 
 CodeHub is a centralized platform that brings together coding challenges from multiple platforms like LeetCode, Codeforces, CodeChef, and HackerRank, along with recommended GitHub open-source projects — all in one place. Powered by AI, it helps you discover personalized challenges and projects based on your preferences, history, and skill level.
 
